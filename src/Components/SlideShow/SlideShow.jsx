@@ -18,8 +18,8 @@ function SlideShow({title,movies}) {
             <Swiper
             modules={[Navigation]}
             navigation
-            spaceBetween={10}
-            slidesPerView={5.8}
+            spaceBetween={7}
+            slidesPerView={5}
             
             >
             { movies?.map((movie) => (
